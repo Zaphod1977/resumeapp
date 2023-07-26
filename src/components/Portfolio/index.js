@@ -1,8 +1,8 @@
 import React from 'react';
 // import { capitalizeFirstLetter } from '../../utils/helpers';
-import horrorScorer from '../../assets/images/horror_scorer_screengrab.PNG'
+import horrorScorer from '../../assets/images/horror_scorer_screengrab.jpg'
 import movieJuice from '../../assets/images/movieJuice.jpg'
-import STL_Happens from '../../assets/images/STL_Happens screenshot.PNG'
+import STL_Happens from '../../assets/images/STL_Happens screenshot.jpg'
 import weatherApp from '../../assets/images/weather resize.jpg'
 import Project from '../Project';
 
