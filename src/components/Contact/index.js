@@ -57,7 +57,7 @@ function ContactForm() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" type="submit">Submit</button>
+        <button data-testid="button" type="submit">Submit - asset not ready</button>
       </form>
     </section>
   );
