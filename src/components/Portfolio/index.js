@@ -14,7 +14,7 @@ function Portfolio(props) {
       <div className="work-rightside">
         <div className="btmw">
           <Project
-            linkurl="https://horror-scorer.herokuapp.com/"
+            linkurl="https://horror-scorer.herokuapp.com/" 
             imageSource={horrorScorer}
             imageAlt=""
             label="MERN Demo">
