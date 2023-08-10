@@ -11,7 +11,7 @@ function About() {
             world back in July of 2000. From there I have rose to be one of the leading integrators in my region and
             also one of the most respected. But.....I've always wanted to
             learn how to write code and to discover the underpinnings of the computing world I so richly appreciate. So
-            here I am...45 and learning to code. The next chapter will
+            here I am...46 and learning to code. The next chapter will
             be to discover the new opportunities my newly earned skills will present me. Hello World.
         </p>
     </section>
