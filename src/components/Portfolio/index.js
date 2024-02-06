@@ -1,5 +1,4 @@
 import React from 'react';
-// import { capitalizeFirstLetter } from '../../utils/helpers';
 import horrorScorer from '../../assets/images/horror_scorer_screengrab.jpg'
 import movieJuice from '../../assets/images/movieJuice.jpg'
 import STL_Happens from '../../assets/images/STL_Happens screenshot.jpg'
@@ -14,27 +13,27 @@ function Portfolio(props) {
       <div className="work-rightside">
         <div className="btmw">
           <Project
-            linkurl="https://horror-scorer.herokuapp.com/" 
+            linkurl="https://horror-scorer.herokuapp.com/" target="_blank"
             imageSource={horrorScorer}
             imageAlt=""
-            label="MERN Demo">
+            label="MERN Demo (offline)">
           </Project>
           <Project
-            linkurl="https://agile-harbor-58683.herokuapp.com/"
+            linkurl="https://agile-harbor-58683.herokuapp.com/" target="_blank"
             imageSource={STL_Happens}
             imageAlt="STL_Happens screenshot"
-            label="STL Happens">
+            label="STL Happens (offline)">
           </Project>
         </div>
         <div className="btmw">
           <Project
-            linkurl="https://zaphod1977.github.io/Weather-Dashboard/"
+            linkurl="https://zaphod1977.github.io/Weather-Dashboard/" target="_blank"
             imageSource={weatherApp}
             imageAlt="webpage screengrab"
             label="Weather App">
           </Project>
           <Project
-            linkurl="https://amymgardiner.github.io/movieJuice/"
+            linkurl="https://amymgardiner.github.io/movieJuice/" target="_blank"
             imageSource={movieJuice}
             imageAlt="webpage screengrab"
             label="movieJuice">

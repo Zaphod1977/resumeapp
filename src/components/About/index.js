@@ -3,7 +3,6 @@ function About() {
   return (
     <section id="about" className="aboutme">
       <h2 id="about" className="aboutme-leftside">About</h2>
-
       <div className="aboutme-rightside-about">
         My name is Bobby Bridges. I am a 47 year old father, business owner, and now full stack developer.
         I have been in the tech world since I was a kid taking audio gear apart to figure out how it
@@ -16,9 +15,7 @@ function About() {
         <br></br><br></br>Hello World.
         <br></br><br></br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/mgkYIXeXOBk?si=6p4C8e-K64v9Yvg7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
       </div>
-      <br></br><br></br><br></br><br></br>
     </section>
   );
 }
