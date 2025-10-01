@@ -1,15 +1,16 @@
 import React from 'react';
-import resumeImage from '../../assets/images/ResumeV2.0.jpg'
+import Item4Image from '../../assets/images/ResumeV2.0.jpg'
 import Project from '../Project';
-function Resume(props) {
+
+function Item4(props) {
 
   return (
     <section id="work" className="work">
-      <h2 className="work-leftside">Resume</h2>
+      <h2 className="work-leftside">D.G. Coin</h2>
       <div >
         <div className="">
-          <Project className="resume"
-            imageSource={resumeImage}
+          <Project className="Item4"
+            imageSource={Item4Image}
             imageAlt=""
             label="">
           </Project>
@@ -19,4 +20,4 @@ function Resume(props) {
   );
 };
 
-export default Resume;
+export default Item4;

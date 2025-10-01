@@ -19,24 +19,24 @@ function Nav(props) {
       </h2>
       <nav>
         <ul className="flex-row">
-          <li className={currentPage === "About" ? "currentPage" : ""}>
-            <a data-testid="about" href="#About" onClick={() => setCurrentPage("About")}>
-              About
+          <li className={currentPage === "Item1" ? "currentPage" : ""}>
+            <a data-testid="Item1" href="#Item1" onClick={() => setCurrentPage("Item1")}>
+              T.E.G.
             </a>
           </li>
-          <li className={currentPage === "Portfolio" ? "currentPage" : ""}>
-            <a data-testid="Portfolio" href="#Portfolio" onClick={() => setCurrentPage("Portfolio")}>
-              Portfolio
+          <li className={currentPage === "Item2" ? "currentPage" : ""}>
+            <a data-testid="Item2" href="#Item2" onClick={() => setCurrentPage("Item2")}>
+              Glass
             </a>
           </li>
-          <li className={currentPage === "Contact" ? "currentPage" : ""}>
-            <a data-testid="Contact" href="#Contact" onClick={() => setCurrentPage("Contact")}>
-              Contact
+          <li className={currentPage === "Item3" ? "currentPage" : ""}>
+            <a data-testid="Item3" href="#Item3" onClick={() => setCurrentPage("Item3")}>
+              O.T.W.D.S.
             </a>
           </li>
-          <li className={currentPage === "Resume" ? "currentPage" : ""}>
-            <a data-testid="Resume" href="#Resume" onClick={() => setCurrentPage("Resume")}>
-              Resume
+          <li className={currentPage === "Item4" ? "currentPage" : ""}>
+            <a data-testid="Item4" href="#Item4" onClick={() => setCurrentPage("Item4")}>
+              DG Coin
             </a>
           </li>
         </ul>

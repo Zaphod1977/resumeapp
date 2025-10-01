@@ -6,10 +6,10 @@ import weatherApp from '../../assets/images/weather resize.jpg'
 import Project from '../Project';
 
 
-function Portfolio(props) {
+function Item2(props) {
   return (
     <section id="work" className="work">
-      <h2 className="work-leftside">Portfolio</h2>
+      <h2 className="work-leftside">Glass</h2>
       <div className="work-rightside">
         <div className="btmw">
           <Project
@@ -44,4 +44,4 @@ function Portfolio(props) {
 
   );
 }
-export default Portfolio;
+export default Item2;

@@ -3,7 +3,7 @@ function Footer() {
   return (
     <footer className='space'>
       <div id="con">
-        <a href="tel:3148530016">Call Me</a>
+        <a href="tel:3148530016">Call/Text</a>
         <a href="https://www.linkedin.com/in/bobby-bridges-baa54889/" target="_blank">Linkedin</a>
         <a href="https://github.com/Zaphod1977/" target="_blank">Github</a>
         <a href="https://www.instagram.com/zaphod_bobbybrox/?hl=en" target="_blank">Instagram</a>

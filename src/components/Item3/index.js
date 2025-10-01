@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import { validateEmail } from '../../utils/helpers';
 
-function ContactForm() {
+function Item3Form() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
   const [errorMessage, setErrorMessage] = useState('');
@@ -37,9 +37,9 @@ function ContactForm() {
   };
 
   return (
-    <section className='contactForm'>
-      <h2 data-testid="h1tag" className='work-leftside'>Contact me</h2>
-      <form id="contact-form" className='work-rightside' onSubmit={handleSubmit}>
+    <section className='Item3Form'>
+      <h2 data-testid="h1tag" className='work-leftside'>O.T.W.D.S.</h2>
+      <form id="Item3-form" className='work-rightside' onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
@@ -63,4 +63,4 @@ function ContactForm() {
   );
 }
 
-export default ContactForm;
+export default Item3Form;
