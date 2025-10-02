@@ -1,0 +1,31 @@
+.item {
+  position: relative;
+  display: inline-block;
+}
+
+.item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.pictext {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 1rem;
+  pointer-events: none; /* allows clicks to go through to <a> */
+}
+
+/* Optional: very small phones */
+@media (max-width: 850px) {
+  .pictext {
+    font-size: 0.9rem;
+    padding: 6px 8px;
+    left: 6px; right: 4px; bottom: 6px;
+  }
+}

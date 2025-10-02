@@ -16,7 +16,7 @@ import glass14 from '../../assets/images/glass14.JPG';
 import glass15 from '../../assets/images/glass15.JPG';
 import glass16 from '../../assets/images/glass16.JPEG';
 import glass17 from '../../assets/images/glass17.JPG';
-import Item5 from '../Item5';
+import ImageStyler from '../ImageStyler';
 
 function Item2(props) {
   return (
@@ -24,86 +24,86 @@ function Item2(props) {
       <h2 className="work-leftside">Glass</h2>
       <div className="work-rightside">
         <div className="btmw">
-          <Item5
+          <ImageStyler
             imageSource={glass01}
-            label="Paper Weight $25">
-          </Item5>
-          <Item5
+            label="Paper Weight $35">
+          </ImageStyler>
+          <ImageStyler
             imageSource={glass02}
             label="Clear Cups $50 set">
-          </Item5>
+          </ImageStyler>
         </div>
         <div className="btmw">
-          <Item5
+          <ImageStyler
             imageSource={glass03}
             label="Abstract Shell $200">
-          </Item5>
-          <Item5
+          </ImageStyler>
+          <ImageStyler
             imageSource={glass04}
             label="Wavy Bowl $75">
-          </Item5>
+          </ImageStyler>
         </div>
         <div className="btmw">
-          <Item5
+          <ImageStyler
             imageSource={glass05}
             label="Abstract Shell $200">
-          </Item5>
-          <Item5
+          </ImageStyler>
+          <ImageStyler
             imageSource={glass06}
             label="Flowers $50-$75 each">
-          </Item5>
+          </ImageStyler>
         </div>
         <div className="btmw">
-          <Item5
+          <ImageStyler
             imageSource={glass07}
             label="Flower $75">
-          </Item5>
-          <Item5
+          </ImageStyler>
+          <ImageStyler
             imageSource={glass08}
             label="Vase+Flower $350 set">
-          </Item5>
+          </ImageStyler>
         </div>
         <div className="btmw">
-          <Item5
+          <ImageStyler
             imageSource={glass09}
             label="Flowers $50 each">
-          </Item5>
-          <Item5
+          </ImageStyler>
+          <ImageStyler
             imageSource={glass10}
             label="Wavy Bowl $150">
-          </Item5>
-          <Item5
+          </ImageStyler>
+          <ImageStyler
             imageSource={glass11}
             label="Abstract Flower $100">
-          </Item5>
-          <Item5
+          </ImageStyler>
+          <ImageStyler
             imageSource={glass12}
             label="Wavy Bowl $200">
-          </Item5>
+          </ImageStyler>
         </div>
         <div className="btmw">
-          <Item5
+          <ImageStyler
             imageSource={glass13}
             label="Clear Pumpkin $40">
-          </Item5>
-          <Item5
+          </ImageStyler>
+          <ImageStyler
             imageSource={glass14}
             label="Pumpkin w/color $50">
-          </Item5>
+          </ImageStyler>
         </div>
         <div className="btmw">
-          <Item5
+          <ImageStyler
             imageSource={glass15}
             label="Clear Pumpkin $40">
-          </Item5>
-          <Item5
+          </ImageStyler>
+          <ImageStyler
             imageSource={glass16}
             label="Flowers in Vase (sold)">
-          </Item5>
-          <Item5
+          </ImageStyler>
+          <ImageStyler
             imageSource={glass17}
             label="Pilgrim's Shell $100">
-          </Item5>
+          </ImageStyler>
         </div>
       </div>
     </section>

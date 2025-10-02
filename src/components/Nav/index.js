@@ -39,11 +39,11 @@ function Nav(props) {
               DG Coin
             </a>
           </li>          
-          <li className={currentPage === "Item5" ? "currentPage" : ""}>
+          {/* <li className={currentPage === "Item5" ? "currentPage" : ""}>
             <a data-testid="Item5" href="#Item5" onClick={() => setCurrentPage("Item5")}>
               Item5
             </a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </header>
