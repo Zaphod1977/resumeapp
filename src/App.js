@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Nav from './components/Nav';
+import Nav from './components/Nav/hamburger';
 import Item1 from './components/Item1';
 import Item2 from './components/Item2';
 import Item3 from './components/Item3';
@@ -24,8 +24,6 @@ function App() {
         return <Item3></Item3>;
       case "Item4":
         return <Item4></Item4>;
-        //       case "ImageStyler":
-        // return <ImageStyler></ImageStyler>;
       default:
         return <Item1></Item1>;
     };

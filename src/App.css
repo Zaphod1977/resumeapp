@@ -59,6 +59,11 @@ footer * {
   font-weight: bolder;
 }
 
+.brand {
+  font-size:xx-large;
+  font-style:italic;
+}
+
 #name {
   color: black;
   font-size: 3em;

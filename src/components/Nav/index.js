@@ -14,7 +14,7 @@ function Nav(props) {
     <header className="flex-row px-1 space">
       <h2>
         <a data-testid="link" href="/">
-          <span role="img" aria-label="camera"></span>Bobby Bridges
+          <span role="img" aria-label="camera"></span>BRIDGED INC
         </a>
       </h2>
       <nav>
