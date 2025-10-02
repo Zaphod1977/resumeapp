@@ -3,7 +3,7 @@ import horrorScorer from '../../assets/images/horror_scorer_screengrab.jpg'
 import movieJuice from '../../assets/images/movieJuice.jpg'
 import STL_Happens from '../../assets/images/STL_Happens screenshot.jpg'
 import weatherApp from '../../assets/images/weather resize.jpg'
-import Project from '../Project';
+import Item5 from '../Item5';
 
 
 function Item2(props) {
@@ -12,32 +12,32 @@ function Item2(props) {
       <h2 className="work-leftside">Glass</h2>
       <div className="work-rightside">
         <div className="btmw">
-          <Project
+          <Item5
             linkurl="https://horror-scorer.herokuapp.com/" target="_blank"
             imageSource={horrorScorer}
             imageAlt=""
             label="MERN Demo (offline)">
-          </Project>
-          <Project
+          </Item5>
+          <Item5
             linkurl="https://agile-harbor-58683.herokuapp.com/" target="_blank"
             imageSource={STL_Happens}
             imageAlt="STL_Happens screenshot"
             label="STL Happens (offline)">
-          </Project>
+          </Item5>
         </div>
         <div className="btmw">
-          <Project
+          <Item5
             linkurl="https://zaphod1977.github.io/Weather-Dashboard/" target="_blank"
             imageSource={weatherApp}
             imageAlt="webpage screengrab"
             label="Weather App">
-          </Project>
-          <Project
+          </Item5>
+          <Item5
             linkurl="https://amymgardiner.github.io/movieJuice/" target="_blank"
             imageSource={movieJuice}
             imageAlt="webpage screengrab"
             label="movieJuice">
-          </Project>
+          </Item5>
         </div>
       </div>
     </section>

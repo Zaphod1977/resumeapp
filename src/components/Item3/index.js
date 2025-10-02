@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import { validateEmail } from '../../utils/helpers';
 
-function Item3Form() {
+function Item3() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
   const [errorMessage, setErrorMessage] = useState('');
@@ -63,4 +63,4 @@ function Item3Form() {
   );
 }
 
-export default Item3Form;
+export default Item3;

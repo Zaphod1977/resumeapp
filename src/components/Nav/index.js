@@ -38,6 +38,11 @@ function Nav(props) {
             <a data-testid="Item4" href="#Item4" onClick={() => setCurrentPage("Item4")}>
               DG Coin
             </a>
+          </li>          
+          <li className={currentPage === "Item5" ? "currentPage" : ""}>
+            <a data-testid="Item5" href="#Item5" onClick={() => setCurrentPage("Item5")}>
+              Item5
+            </a>
           </li>
         </ul>
       </nav>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Project (props) {
+function Item5 (props) {
     const {linkurl, imageSource, imageAlt, label} = props;
 
     return (
@@ -14,4 +14,4 @@ function Project (props) {
     )
 }
 
-export default Project;
+export default Item5;
